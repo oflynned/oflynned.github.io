@@ -1,0 +1,23 @@
+.text-nav {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text-paragraph {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-paragraph--white {
+    color: #ffffff;
+}
+
+.text-paragraph--black {
+    color: #000000;
+}
+
+.panel--half-size {
+    height: 50vh;
+}
+
+.panel--full-size {
+    width: 100vh;
+}
