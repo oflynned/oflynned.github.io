@@ -3,6 +3,13 @@
     margin: 0 auto;
 }
 
+img.client {
+    margin: 0 auto;
+    display: block;
+    height: 150px;
+    width: auto;
+}
+
 .centre-justify {
     text-align: justify;
     -moz-text-align-last: center;

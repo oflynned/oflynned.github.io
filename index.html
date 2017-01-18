@@ -5,25 +5,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=1"/>
 
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="src/css/base.css"/>
     <link rel="stylesheet" href="style.css"/>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic,400italic,700italic,900italic)"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Quicksand" rel="stylesheet">
 
-    <title>GlassByte</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">  </script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js">  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 
+    <title>GlassByte | Apps | Services | Transparent Software</title>
 </head>
 
 <body>
 
 <!-- mobile bar via hamburger menu -->
-<div class="mobile-nav">
+<div class="mobile-nav" id="#nav-bar-mobile">
     <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Clients</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </div>
 
@@ -35,15 +40,15 @@
             <div class="brand animated bounceInLeft">
                 <!-- place outline of GlassByte logo beside top left banner -->
                 <!-- TODO make svg of logo -->
-                <a href="index.html">GlassByte</a>
+                <a>GlassByte</a>
             </div>
 
             <!-- top options -->
-            <nav class="right-float animated bounceInRight mobile-hidden">
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
+            <nav class="right-float animated bounceInRight mobile-hidden" id="#nav-bar-desktop">
+                <a href="#about" id="about-link">About</a>
+                <a href="#projects" id="projects-link">Projects</a>
+                <a href="#clients" id="clients-link">Clients</a>
+                <a href="#contact" id="contact-link">Contact</a>
             </nav>
 
             <!-- only visible on mobile for nav -->
@@ -56,57 +61,63 @@
     </div>
 </header>
 
-<section class="docs-banner">
+<section class="docs-banner" id="#about">
 
     <img src="images/logo.png" class="animated bounceInRight centre">
 
     <div class="container animated bounceInLeft centre-justify">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-        <h4 class="text-paragraph text-paragraph--white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+        <h1>Ambitious, Professional, Transparent Software</h1>
+        <h4 class="text-paragraph text-paragraph--white">
+            GlassByte Limited is a software development startup company headquartered in Dublin, Ireland.
+        </h4>
     </div>
 </section>
 
-<section class="feature-section panel--half-size fade">
+<section class="feature-section panel--half-size fade" id="#projects">
     <div class="container">
         <div class="centre-justify">
             <h1 class="feature-section-title">From Prototype to Production</h1>
-            <p class="feature-lead text-center">Ius mazim voluptatibus at. Vix ea everti tritani. Delectus legendos usu
-                ex. Alienum senserit convenire id eos, mucius alienum iudicabit duo ea.
+            <p class="feature-lead text-center">
+
+                Our company goal to help the lives of others, and provide a means to solving a problem face in life
+                everyday - all by providing solutions in the form of software developed with scrutiny and a clear
+                attention to detail.
             </p>
         </div>
         <div class="row-fluid">
             <div class="col4 first">
                 <div class="text-center">
-                    <img src="src/img/contribute.svg" alt=""/>
+                    <img src="images/drink_tracker_md.png" alt=""/>
                 </div>
-                <h2 class="text-center text-nav">Project 1</h2>
-                <p>Lorem ipsum dolor sit amet, ius amet omnes postea ad, nostrud atomorum sit cu, eos tation nostrud id.
-                    Animal reprehendunt eum in, qui cu stet nullam. Vis quidam copiosae ei, sit sale legimus euripidis
-                    in.
-                    Et scripta consequuntur his, te sit assum putent aliquando.
+                <h2 class="text-center text-nav">Drink Tracker</h2>
+                <p>Drink Tracker helps you to monitor how much alcohol you're drinking and act as a sober friend in
+                    your pocket. Say goodbye to over-drinking, hangovers, blackouts and ruined nights out.
+                    <br><br>
+                    Drink Tracker is your guide to real-time awareness, where warnings let you know in due time when
+                    enough is enough.
                 </p>
             </div>
             <div class="col4 second">
                 <div class="text-center">
-                    <img src="src/img/contribute.svg" alt=""/>
+                    <img src="images/neurobranch_md.png" alt=""/>
                 </div>
-                <h2 class="text-center text-nav">Project 2</h2>
-                <p>Lorem ipsum dolor sit amet, ius amet omnes postea ad, nostrud atomorum sit cu, eos tation nostrud id.
-                    Animal reprehendunt eum in, qui cu stet nullam. Vis quidam copiosae ei, sit sale legimus euripidis
-                    in.
-                    Et scripta consequuntur his, te sit assum putent aliquando.
+                <h2 class="text-center text-nav">Neurobranch</h2>
+                <p>Neurobranch is a cross-platform, cloud-based bio-research study platform designed for the small to
+                    medium sized bio/pharma institutions and academic use.
+                    <br><br>
+                    The platform allows researchers unparalleled flexibility in data acquisition and increasing
+                    retention rates of study candidates.
                 </p>
             </div>
             <div class="col4 third">
                 <div class="text-center">
-                    <img src="src/img/contribute.svg" alt=""/>
+                    <img src="images/h_pylori_md.png" alt=""/>
                 </div>
-                <h2 class="text-center text-nav">Project 3</h2>
-                <p>Lorem ipsum dolor sit amet, ius amet omnes postea ad, nostrud atomorum sit cu, eos tation nostrud id.
-                    Animal reprehendunt eum in, qui cu stet nullam. Vis quidam copiosae ei, sit sale legimus euripidis
-                    in.
-                    Et scripta consequuntur his, te sit assum putent aliquando.
+                <h2 class="text-center text-nav">H. Pylori Care</h2>
+                <p>H. Pylori was commissioned by the Tallaght Academic Gastroenterology Group containing
+                    guidelines on diagnosis and treatments for clinicians and patients.
+                    <br><br>
+                    The app aims to aid the treatment of the H. Pylori virus and is available for both Android and iOS devices.
                 </p>
             </div>
         </div>
@@ -115,46 +126,44 @@
 
 <hr>
 
-<section class="feature-section panel--half-size">
+<section class="feature-section panel--half-size" id="#clients">
     <div class="container fade">
         <div class="centre-justify">
             <h1 class="feature-section-title">Professional Consulting for Professionals</h1>
-            <p class="feature-lead text-center">Ius mazim voluptatibus at. Vix ea everti tritani. Delectus legendos usu
-                ex. Alienum senserit convenire id eos, mucius alienum iudicabit duo ea.
+            <p class="feature-lead text-center">
+                Since 2015, we’ve steadily released various products and have listened to our customers, making us the
+                partner of choice for providing rock-stable apps, platforms, and services.
             </p>
         </div>
         <div class="row-fluid">
             <div class="col4 first">
                 <div class="text-center">
-                    <img src="src/img/less_logo.svg" alt=""/>
+                    <img class="client" src="images/launchbox.png" alt=""/>
                 </div>
-                <h2 class="text-center text-nav">Client 1</h2>
-                <p>Lorem ipsum dolor sit amet, ius amet omnes postea ad, nostrud atomorum sit cu, eos tation nostrud id.
-                    Animal reprehendunt eum in, qui cu stet nullam. Vis quidam copiosae ei, sit sale legimus euripidis
-                    in.
-                    Et scripta consequuntur his, te sit assum putent aliquando.
+                <h2 class="text-center text-nav">LaunchBox Accelerator Programme</h2>
+                <p>LaunchBox is a summer accelerator programme open to teams of Trinity students with an early-stage business.
+                    The program provides mentorship, funding, access to alumni and investors, and the ideal collaborative
+                    environment to launch new startup ventures.
                 </p>
             </div>
             <div class="col4 second">
                 <div class="text-center">
-                    <img src="src/img/less_logo.svg" alt=""/>
+                    <img class="client" src="images/tagg.jpeg" alt=""/>
                 </div>
-                <h2 class="text-center text-nav">Client 2</h2>
-                <p>Lorem ipsum dolor sit amet, ius amet omnes postea ad, nostrud atomorum sit cu, eos tation nostrud id.
-                    Animal reprehendunt eum in, qui cu stet nullam. Vis quidam copiosae ei, sit sale legimus euripidis
-                    in.
-                    Et scripta consequuntur his, te sit assum putent aliquando.
+                <h2 class="text-center text-nav">Tallaght AMNCH TAGG Group</h2>
+                <p>Trinity Academic Gastroenterology Group (TAGG) is an active research and clinical team working
+                    collaboratively at the Adelaide & Meath Hospital incorporating the National Children’s Hospital (AMNCH)
+                    and St James’s Hospital Dublin with Trinity College Dublin.
                 </p>
             </div>
             <div class="col4 third">
                 <div class="text-center">
-                    <img src="src/img/less_logo.svg" alt=""/>
+                    <img class="client" src="images/tcd.jpg" alt=""/>
                 </div>
-                <h2 class="text-center text-nav">Client 3</h2>
-                <p>Lorem ipsum dolor sit amet, ius amet omnes postea ad, nostrud atomorum sit cu, eos tation nostrud id.
-                    Animal reprehendunt eum in, qui cu stet nullam. Vis quidam copiosae ei, sit sale legimus euripidis
-                    in.
-                    Et scripta consequuntur his, te sit assum putent aliquando.
+                <h2 class="text-center text-nav">Trinity Biomedical Institute</h2>
+                <p>The Trinity College Dublin Biomedical Sciences Institute (TBSI) is an environment where
+                    innovative and interdisciplinary approaches are leading to scientific discoveries of biomedical
+                    importance, ultimately giving rise to better patient care. Our focus is on outstanding discovery.
                 </p>
             </div>
         </div>
@@ -163,11 +172,15 @@
 
 <hr>
 
-<section class="feature-section panel--half-size">
+<section class="feature-section panel--half-size" id="#contact">
     <div class="container fade centre-justify">
         <h1 class="feature-section-title">Contact Us</h1>
-        <p class="feature-lead text-center">Ius mazim voluptatibus at. Vix ea everti tritani. Delectus legendos usu ex.
-            Alienum senserit convenire id eos, mucius alienum iudicabit duo ea.
+        <p class="feature-lead text-center">From consumer-driven apps to enterprise-level services, our innovative
+            solutions help our clients to streamline business operations, grow sales, drive acquisition, and keep
+            loyalty at heart through digital, cross-platform development tailored to you.
+            <br><br>
+            If you or your organisation would like to get in touch about services we offer, don't hesitate to
+            email us on <a href="mailto:contact@glassbyte.com">contact@glassbyte.com</a>.
         </p>
     </div>
 </section>
@@ -187,7 +200,6 @@
 </footer>
 
 <script src="src/js/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css"/>
 <script src="lib/waypoints.min.js"></script>
 
 <script>
@@ -207,11 +219,33 @@
 <!-- automatically set the year in footer -->
 <script>
     var dateId = document.getElementById("year");
-    var foundingYear = 2015;
-    var currentYear = new Date().getFullYear();
-    dateId.innerHTML = currentYear == foundingYear ? currentYear : foundingYear + "-" + currentYear;
+    dateId.innerHTML = "2015 - " + new Date().getFullYear();
+</script>
+
+<!-- scroll to #id -->
+<script>
+    function scroll(offset) {
+        $('html, body').animate({
+            scrollTop: offset
+        }, 'slow');
+    }
+
+    $("#about-link").click(function() {
+        scroll(0)
+    });
+
+    $("#projects-link").click(function() {
+        scroll(850)
+    });
+
+    $("#clients-link").click(function() {
+        scroll(1700)
+    });
+
+    $("#contact-link").click(function() {
+        scroll(2550)
+    });
 </script>
 
 </body>
-
 </html>
