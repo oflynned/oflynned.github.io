@@ -1,3 +1,15 @@
 .text-green {
-    
+    color: #00d1b2
+}
+
+.text-white {
+    color: #ffffff
+}
+
+.background-navy {
+    background-color: #25283D
+}
+
+.background-green {
+    background-color: #00d1b2
 }
