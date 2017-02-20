@@ -13,3 +13,33 @@
 .background-green {
     background-color: #00d1b2
 }
+
+img.top {
+
+}
+
+img.mission {
+    float: right;
+}
+
+img.about {
+    width: 20em;
+    height: auto;
+    text-align:center;
+}
+
+img.logo {
+    width: 15em;
+    height: auto;
+    text-align:center;
+}
+
+.imgContainer {
+    overflow: hidden;
+    height: 75vh;
+    position: relative;
+}
+.imgContainer img {
+    position: relative;
+    height: 75vh
+}
