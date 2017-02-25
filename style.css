@@ -1,9 +1,13 @@
 .text-green {
-    color: #00d1b2
+    color: #468362
 }
 
 .text-white {
     color: #ffffff
+}
+
+p.text-white > a{
+    color: white;
 }
 
 .background-navy {
@@ -11,7 +15,13 @@
 }
 
 .background-green {
-    background-color: #00d1b2
+    background-color: #468362
+}
+
+div.borderless-section > div {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 img.top {
@@ -28,8 +38,18 @@ img.about {
     text-align:center;
 }
 
+img.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 img.logo {
     width: 15em;
+    height: auto;
+    text-align:center;
+}
+
+img.sketch {
+    width: 20em;
     height: auto;
     text-align:center;
 }

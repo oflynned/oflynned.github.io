@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=1"/>
     <title>PlusPlant | Going Carbon Neutral Together</title>
+
+    <!-- favicon and facebook chat preview pic -->
     <link rel="icon" href="images/logo.png"/>
+    <link rel="og:image" content="images/logo.png"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
@@ -12,14 +15,18 @@
 </head>
 
 <body>
+
 <!-- top PlusPlant bar -->
 <div class="container">
     <nav class="nav">
-        <div class="nav-left"><a class="nav-item is-brand" href="#">
-            PLUSPLANT
-        </a></div>
+        <div class="nav-left">
+            <a class="nav-item is-brand title is-4" href="#">
+                PLUSPLANT
+            </a>
+        </div>
     </nav>
 </div>
+
 <!-- navigation bar -->
 <div style="background-color:#ffff">
     <div class="container">
@@ -49,22 +56,24 @@
 </div>
 
 <!-- about -->
-<section class="hero is-primary" style="padding:25vh">
-    <div class="hero-body background-green">
-        <div class="container has-text-centered">
-            <div class="is-vcentered">
-                <div>
-                    <h1 class="title is-4 text-white">
-                        GOING CARBON NEUTRAL TOGETHER
-                    </h1>
-                    <h1 class="title is-1 text-white">
-                        PLUSPLANT
-                    </h1>
+<div class="is-fluid is-marginless">
+    <section class="hero is-medium front-has-image-background is-large" style="background-color: #468362">
+        <div class="hero-body">
+            <div class="container">
+                <div class="is-vcentered">
+                    <div class="has-text-centered">
+                        <h1 class="subtitle text-is-white" style="color: white;">
+                            GOING CARBON NEUTRAL TOGETHER
+                        </h1>
+                        <h2 class="title color-is-white" style="color: white">
+                            PLUSPLANT
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 
 <!-- mission -->
 <div class="columns is-vcentered" style="margin-top:1em;">
@@ -96,6 +105,7 @@
     </div>
 </div>
 
+<!-- action -->
 <div class="hero-body background-navy" style="padding:10em">
     <div class="container has-text-centered">
         <h1 class="title text-green">
@@ -107,16 +117,87 @@
     </div>
 </div>
 
+<!-- sketches etc -->
+<div class="" style="padding:4em">
+    <div class="columns">
+        <!-- car -->
+        <div class="column is-half">
+            <img src="images/car_sketch.png" style="float:right;" class="sketch"/>
+        </div>
+
+        <div class="column is-half">
+            <div class="container" style="text-align:left;">
+                <p>Global warming and adverse environmental change are intensified by the release of
+                    greenhouse gases by humans. Greenhouse gases trap heat from the sun and disrupt natural balances
+                    upon which ecosystems depend. Carbon emissions, a product of combusting fossil fuels, are the
+                    largest contributor to greenhouse gases in our atmosphere. The use of energy in our homes,
+                    businesses and public work places all contribute to this problem, elevating atmospheric
+                    CO<sub>2</sub></p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- polar bear -->
+    <div class="columns">
+        <div class="column is-half">
+            <div class="container" style="text-align:right; padding: 1em;">
+                <p>Forests play a unique role in the Earth’s Carbon Cycle. By means of
+                    photosynthesis, trees absorb CO<sub>2</sub> and turn it into oxygen, which they release back into
+                    the atmosphere while the remaining carbon is stored in the trees’ hard structures such as roots,
+                    trunks
+                    and branches. These structures “lock-up” large amounts of carbon. In addition, carbon rich arboreal
+                    detritus such as leaves, twigs and bark, which fall from the trees, are continuously worked into and
+                    stored in the soil. Today, as such, forests are the biggest terrestrial ‘sinks’ of carbon, absorbing
+                    an estimated 20% of man’s emissions, this helps maintain the correct temperatures needed to sustain
+                    fragile ecosystems.
+            </div>
+
+        </div>
+
+        <div class="column is-half">
+            <img src="images/polar_bear.png" class="sketch" style="float:left;"/>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- tree -->
+    <div class="columns">
+
+        <div class="column is-half">
+            <img src="images/tree_sketch.png" style="float: right;" class="sketch"/>
+        </div>
+
+        <div class="column is-half">
+            <div class="container" style="text-align:left; padding: 1em;">
+                <div class="is-vcentered">
+                    <p>At PlusPlant, we are focused on tackling environmental uncertainty by
+                        offsetting carbon emissions. We work with business and other organizations, measuring their
+                        unique carbon footprint. Knowing and continuously monitoring the capacity of tree species and
+                        soils to absorb carbon. We then plant and manage forestry tailored to individual business and
+                        organizations, offsetting their carbon footprint. Choosing products and services, which have
+                        been carbon offset with PlusPlant, is a sustainable and ecologically friendly way of doing our
+                        individual duty in mitigating environmental degradation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 <!-- about -->
 <div class="background-green" style="padding:4em">
     <div class="container has-text-centered" style="padding:2em">
         <h1 class="title is-3 text-white">About Us</h1>
     </div>
 
-    <div class="columns">
+    <div class="columns borderless-section">
         <!-- Foundings -->
         <div class="column is-half">
-            <div class="container" style="text-align:right">
+            <div class="container" style="text-align:right; padding: 1em;">
                 <h1 class="title is-3 text-white">PlusPlant</h1>
                 <h2 class="subtitle is-5 text-white">Our Beginnings</h2>
                 <p class="text-white">PlusPlant began in 2014 as a simple idea: to help companies adopt sustainable
@@ -127,40 +208,38 @@
 
 
         <div class="column is-half">
-            <img src="images/hand.png" class="about"/>
+            <img src="images/hand.png" class="about shadow"/>
         </div>
     </div>
 
-    <div class="columns">
+    <div class="columns borderless-section">
         <div class="column is-half">
-            <img src="images/eoin.png" class="about" style="float:right;"/>
+            <img src="images/eoin.png" class="about shadow" style="float:right;"/>
         </div>
 
         <!-- Eoin -->
         <div class="column is-half">
-            <div class="container" style="text-align:left">
+            <div class="container" style="text-align:left; padding: 1em;">
                 <h1 class="title is-3 text-white">Eoin Scollard</h1>
                 <h2 class="subtitle is-5 text-white">Company Partner &amp; Carbon Analyst</h2>
                 <p class="text-white">Eoin Scollard has extensive experience around issues of sustainability, having
-                    grown up on an organic farm ad since worked in agriculture and with parklands Eoin has a keep
+                    grown up on an organic farm and since worked in agriculture and with parklands, Eoin has a keen
                     interest and expertise in protecting forestry and tackling climate change.
-                    A Natural Sciences graduate of Trinity College Dublin, he has considerable research capabilities.
+                    As a Natural Sciences graduate of Trinity College Dublin, he has considerable research capabilities.
             </div>
         </div>
     </div>
 
-    <div class="columns">
+    <div class="columns borderless-section">
         <!-- Seán -->
         <div class="column is-half">
-            <div class="container" style="text-align:right">
+            <div class="container" style="text-align:right; padding: 1em;">
                 <div class="is-vcentered">
                     <h1 class="title is-3 text-white">Seán Binder</h1>
-                    <h2 class="subtitle is-5 text-white">Founder and Company Manager</h2>
+                    <h2 class="subtitle is-5 text-white">Founder &amp; Company Manager</h2>
                     <p class="text-white">Seán Binder is currently pursuing a post-graduate degree at the London School
-                        of
-                        Economics. Seán has expertise both in international relations and business. He is driven to
-                        create
-                        environmentally sustainable business solutions.
+                        ofEconomics. Seán has expertise both in international relations and business. He is driven to
+                        create environmentally sustainable business solutions.
                         Seán has pioneered the purchase of land for forestry in Central Uganda, and continues to manage
                         PlusPlant's trees with local communities.
                     </p>
@@ -169,7 +248,7 @@
         </div>
 
         <div class="column is-half">
-            <img src="images/sean.png" class="about"/>
+            <img src="images/sean.png" class="about shadow"/>
         </div>
     </div>
 
@@ -184,10 +263,10 @@
     <div class="container">
         <div class="content has-text-centered text-white">
             <p>PlusPlant &copy; 2017</p>
+            <p class="text-white"><a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
         </div>
     </div>
 </footer>
-
 
 </body>
 
