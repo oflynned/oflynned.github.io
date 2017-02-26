@@ -1,0 +1,135 @@
+.text-green {
+    color: #468362
+}
+
+.text-white {
+    color: #ffffff
+}
+
+p.text-white > a {
+    color: white;
+}
+
+.background-navy {
+    background-color: #25283D
+}
+
+.background-green {
+    background-color: #468362
+}
+
+div.borderless-section > div {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.borderless {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.hero-image {
+    margin: auto;
+    background: url("./images/parallax_image.jpg");
+    background-size: 100vw;
+}
+
+.parallax {
+    background-attachment: fixed;
+}
+
+img.mission-logo {
+    width: 15em;
+    height: auto;
+    text-align: center;
+    display: table;
+    margin: 3.5em auto 3.5em;
+}
+
+img.mission {
+    height: 100%;
+    width: auto;
+}
+
+img.about {
+    width: 30em;
+    height: auto;
+    text-align: center;
+}
+
+img.centred {
+    text-align: center;
+    display: table;
+    margin: 0 auto 0;
+}
+
+img.sketch-car {
+    width: 35em;
+    height: auto;
+}
+
+img.sketch-polar-bear {
+    width: 20em;
+    height: auto;
+    text-align: center;
+}
+
+img.sketch-tree {
+    width: 23em;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+img.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.logo {
+    width: 15em;
+    height: auto;
+    text-align: center;
+}
+
+img.sketch {
+    width: 20em;
+    height: auto;
+    text-align: center;
+}
+
+.imgContainer {
+    overflow: hidden;
+    height: 75vh;
+    position: relative;
+}
+
+.imgContainer img {
+    height: 100vh;
+}
+
+.sketch-header {
+    margin-top:1em;
+    margin-left: 0;
+    padding: 0;
+}
+
+.header-left {
+    text-align:left;
+}
+
+.header-right {
+    text-align:right;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background: no-repeat 0 0;
+    align-items: center;
+    min-height: 75%;
+    min-width: 75%;
+}

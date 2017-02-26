@@ -1,0 +1,24 @@
+*.sass
+
+.DS_STORE
+.idea/
+.github/
+.node_modules/
+docs/
+LICENCE
+
+# Files
+.DS_Store
+.ruby-version
+test.sass
+npm-debug.log
+
+# Folders
+.idea/
+.sass-cache
+_gh_pages
+_site
+node_modules
+
+*.iml
+*.xml
