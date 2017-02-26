@@ -6,7 +6,7 @@
     color: #ffffff
 }
 
-p.text-white > a{
+p.text-white > a {
     color: white;
 }
 
@@ -24,18 +24,63 @@ div.borderless-section > div {
     padding: 0;
 }
 
-img.top {
+.borderless {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
 
+.hero-image {
+    margin: auto;
+    background: url("./images/parallax_image.jpg");
+    background-size: 100vw;
+}
+
+.parallax {
+    background-attachment: fixed;
+}
+
+img.mission-logo {
+    width: 15em;
+    height: auto;
+    text-align: center;
+    display: table;
+    margin: 3.5em auto 3.5em;
 }
 
 img.mission {
-    float: right;
+    height: 100%;
+    width: auto;
 }
 
 img.about {
+    width: 30em;
+    height: auto;
+    text-align: center;
+}
+
+img.centred {
+    text-align: center;
+    display: table;
+    margin: 0 auto 0;
+}
+
+img.sketch-car {
+    width: 35em;
+    height: auto;
+}
+
+img.sketch-polar-bear {
     width: 20em;
     height: auto;
-    text-align:center;
+    text-align: center;
+}
+
+img.sketch-tree {
+    width: 23em;
+    height: auto;
+    text-align: center;
+    margin: auto;
 }
 
 img.shadow {
@@ -45,13 +90,13 @@ img.shadow {
 img.logo {
     width: 15em;
     height: auto;
-    text-align:center;
+    text-align: center;
 }
 
 img.sketch {
     width: 20em;
     height: auto;
-    text-align:center;
+    text-align: center;
 }
 
 .imgContainer {
@@ -59,7 +104,32 @@ img.sketch {
     height: 75vh;
     position: relative;
 }
+
 .imgContainer img {
-    position: relative;
-    height: 75vh
+    height: 100vh;
+}
+
+.sketch-header {
+    margin-top:1em;
+    margin-left: 0;
+    padding: 0;
+}
+
+.header-left {
+    text-align:left;
+}
+
+.header-right {
+    text-align:right;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background: no-repeat 0 0;
+    align-items: center;
+    min-height: 75%;
+    min-width: 75%;
 }
