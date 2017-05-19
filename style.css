@@ -47,7 +47,7 @@ img.mission-logo {
     height: auto;
     text-align: center;
     display: table;
-    margin:auto;
+    margin: auto;
 }
 
 img.mission {
@@ -140,25 +140,13 @@ img.sketch {
 }
 
 .fill {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background-size: cover;
-    background: no-repeat 0 0;
-    align-items: center;
-    min-height: 75%;
-    min-width: 90%;
+    min-width: 50%;
+    max-width: 1440px;
 }
 
 .fill-calculations {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background-size: cover;
-    background: no-repeat 0 0;
-    align-items: center;
-    min-height: 75%;
-    min-width: 90%;
+    min-width: 100%;
+    max-width: 1440px;
 }
 
 .fill-details {
@@ -172,6 +160,10 @@ img.sketch {
     min-width: 100%;
 }
 
+.fill-details-soil {
+    min-width: 100%;
+}
+
 .box {
     display: flex;
     flex-wrap: wrap;
@@ -181,4 +173,18 @@ img.sketch {
 
 .justified-content {
     text-align: justify;
+}
+
+.text-has-shadow {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.arrow {
+    font-size: 500%;
+    text-align: center
+}
+
+.text-block {
+    min-width: 33vw;
+    margin: auto;
 }
