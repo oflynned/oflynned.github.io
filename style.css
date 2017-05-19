@@ -1,0 +1,190 @@
+.text-green {
+    color: #468362
+}
+
+.text-white {
+    color: #ffffff
+}
+
+p.text-white > a {
+    color: white;
+}
+
+.background-navy {
+    background-color: #25283D
+}
+
+.background-green {
+    background-color: #468362
+}
+
+div.borderless-section > div {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.borderless {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.hero-image {
+    margin: auto;
+    background: url("images/mountains_cropped.png") fixed bottom;
+    background-size: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.parallax {
+    background-attachment: fixed;
+}
+
+img.mission-logo {
+    width: 20em;
+    height: auto;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+img.mission {
+    height: 100%;
+    width: auto;
+}
+
+img.about {
+    width: 30em;
+    height: auto;
+    text-align: center;
+}
+
+img.centred {
+    text-align: center;
+    display: table;
+    margin: 0 auto 0;
+}
+
+img.sketch-car {
+    width: 35em;
+    height: auto;
+}
+
+img.sketch-polar-bear {
+    width: 18em;
+    height: auto;
+    text-align: center;
+}
+
+img.sketch-tree {
+    width: 24em;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+img.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2.answer {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+img.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+img.logo {
+    width: 15em;
+    height: auto;
+    text-align: center;
+}
+
+img.sketch {
+    width: 20em;
+    height: auto;
+    text-align: center;
+}
+
+.imgContainer {
+    overflow: hidden;
+    height: 75vh;
+    position: relative;
+}
+
+.imgContainer img {
+    height: 100vh;
+}
+
+.sketch-header {
+    margin-top: 1em;
+    margin-left: 0;
+    padding: 0;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.fill {
+    min-width: 50%;
+    max-width: 1440px;
+}
+
+.fill-calculations {
+    min-width: 100%;
+    max-width: 1440px;
+}
+
+.fill-details {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background: no-repeat 0 0;
+    align-items: center;
+    min-height: 150%;
+    min-width: 100%;
+}
+
+.fill-details-soil {
+    min-width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.justified-content {
+    text-align: justify;
+}
+
+.text-has-shadow {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.arrow {
+    font-size: 500%;
+    text-align: center
+}
+
+.text-block {
+    min-width: 33vw;
+    margin: auto;
+}
