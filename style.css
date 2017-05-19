@@ -34,7 +34,7 @@ div.borderless-section > div {
     margin: auto;
     background: url("images/mountains_cropped.png") fixed bottom;
     background-size: 100vw;
-    min-height: 75vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -96,6 +96,13 @@ h2.answer {
     transform: rotate(-180deg);
 }
 
+img.rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 img.logo {
     width: 15em;
     height: auto;
@@ -140,7 +147,29 @@ img.sketch {
     background: no-repeat 0 0;
     align-items: center;
     min-height: 75%;
-    min-width: 75%;
+    min-width: 90%;
+}
+
+.fill-calculations {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background: no-repeat 0 0;
+    align-items: center;
+    min-height: 75%;
+    min-width: 90%;
+}
+
+.fill-details {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background: no-repeat 0 0;
+    align-items: center;
+    min-height: 150%;
+    min-width: 100%;
 }
 
 .box {
